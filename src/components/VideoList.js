@@ -2,17 +2,11 @@ import React from 'react';
 import VideoItem from './VideoItem';
 
 const VideoList = ({ videos, onVideoSelect }) => {
-  return (
-    <div className="container">
-      <div className="row">
-        {videos.map(video => (
-          <div className="col-md-3" key={video.id}>
-            <VideoItem video={video} onVideoSelect={onVideoSelect} />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+  const renderedVideos = videos.map((video) => {
+    return <VideoItem key={video.id} video={video} onVideoSelect={onVideoSelect} />;
+  });
+
+  return <div className="row">{renderedVideos}</div>;
 };
 
 export default VideoList;

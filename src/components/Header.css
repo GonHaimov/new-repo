@@ -1,46 +1,95 @@
 .header-container {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    background-color: #f8f8f8;
-  }
-  
-  .navbar {
-    flex-grow: 1;
-    padding: 5px 10px;
-    margin: 0;
-    width: 100%;
-    background-color: #f8f8f8;
-  }
-  
-  .youtube-logo {
-    height: 30px;
-    width: auto;
-    margin-left: 20px;
-  }
-  
-  .search-input {
-    width: 600px;
-  }
-  
-  .form-inline {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .navbar-toggler {
-    border-color: rgba(0, 0, 0, 0.1);
-  }
-  
-  .btn-outline-success {
-    margin-left: 10px;
-  }
-  
-  .btn-outline-primary {
-    margin-left: 10px;
-    white-space: nowrap; /* מונע שבירת שורות */
-  }
-  
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px; /* גובה קבוע ל-header */
+}
+
+.youtube-logo {
+  height: 90px; /* גובה קבוע ללוגו */
+  width: auto;
+  margin-right: 120px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 700px; /* או כל רוחב שמתאים לך */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-input {
+  flex-grow: 1;
+  height: 40px; /* גובה קבוע לשדה החיפוש */
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: none;
+  padding-left: 20px;
+}
+
+.search-button {
+  height: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #e0e0e0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px; /* הזזה של הכפתור ימינה */
+}
+
+.mic-button {
+  height: 40px;
+  margin-left: 10px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.notification-button {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+}
+
+.sign-in-button {
+  white-space: nowrap;
+}
+
+.upload-button {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  font-size: 24px;
+}

@@ -1,46 +1,33 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 import './Header.css';
-import { ReactComponent as YouTubeLogo } from '../assets/youtube-logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FaSearch, FaMicrophone, FaBell, FaPlusSquare } from 'react-icons/fa';
+import { ReactComponent as YouTubeLogo } from '../assets/youtube-logo.svg'; // ייבוא ה-SVG כרכיב React
 
-
-const Header = ({ onSearch }) => {
-  const [searchTerm, setSearchTerm] = useState('');
-
-  const handleSearchChange = (event) => {
-    setSearchTerm(event.target.value);
-  };
-
-  const handleSearchSubmit = (event) => {
-    event.preventDefault();
-    onSearch(searchTerm);
-  };
-
+const Header = () => {
   return (
     <div className="header-container">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link className="navbar-brand" to="/">
-          <YouTubeLogo className="youtube-logo" />
-        </Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+      <YouTubeLogo className="youtube-logo" alt="YouTube Logo" />
+      <form className="form-inline search-form">
+        <input className="form-control search-input" type="search" placeholder="Search" aria-label="Search" />
+        <button className="btn search-button" type="submit">
+          <FaSearch />
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <form className="form-inline mx-auto" onSubmit={handleSearchSubmit}>
-            <input
-              className="form-control mr-sm-2 search-input"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-              value={searchTerm}
-              onChange={handleSearchChange}
-            />
-            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-          <button className="btn btn-outline-primary my-2 my-sm-0">Sign In</button>
-        </div>
-      </nav>
+        <button className="btn mic-button" type="button">
+          <FaMicrophone />
+        </button>
+      </form>
+      <div className="right-icons">
+        <button className="btn upload-button" type="button">
+          <FaPlusSquare />
+        </button>
+        <button className="btn notification-button" type="button">
+          <FaBell />
+        </button>
+        <button className="btn btn-outline-primary sign-in-button" type="button">
+          Sign In
+        </button>
+      </div>
     </div>
   );
 };
