@@ -1,8 +1,9 @@
 import React from 'react';
 import './Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaSearch, FaMicrophone, FaBell, FaPlusSquare } from 'react-icons/fa';
-import { ReactComponent as YouTubeLogo } from '../assets/youtube-logo.svg'; // ייבוא ה-SVG כרכיב React
+import { FaSearch, FaMicrophone, FaBell, FaPlus, FaMoon, FaSun } from 'react-icons/fa';
+import { ReactComponent as YouTubeLogo } from '../assets/youtube-logo.svg';
+import DarkModeToggle from './DarkModeToggle'; // Import the DarkModeToggle component
 
 const Header = () => {
   return (
@@ -19,8 +20,9 @@ const Header = () => {
       </form>
       <div className="right-icons">
         <button className="btn upload-button" type="button">
-          <FaPlusSquare />
+          <FaPlus />
         </button>
+        <DarkModeToggle />
         <button className="btn notification-button" type="button">
           <FaBell />
         </button>

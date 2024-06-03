@@ -204,3 +204,55 @@ body {
   color: #fff; /* White text when active */
   font-weight: bold;
 }
+
+body.dark-mode {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+body.dark-mode .header-container {
+  background-color: #282828;
+}
+
+body.dark-mode .sidebar {
+  background-color: #202020;
+  color: #ffffff;
+}
+
+body.dark-mode .content-container {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+body.dark-mode .custom-btn {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+body.dark-mode .custom-btn.active {
+  background-color: #555555;
+  color: #ffffff;
+}
+
+body.dark-mode .sidebar-button {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+body.dark-mode .sidebar-button:hover {
+  background-color: #444444;
+}
+
+body.dark-mode .video-title,
+body.dark-mode .video-info {
+  color: #ffffff;
+}
+
+body.dark-mode .card-body {
+  background-color: #000000; /* Black background for card body */
+  color: #ffffff; /* White text for card body */
+}
+
+body.dark-mode .fa-sun {
+  color: #ffffff;
+}
