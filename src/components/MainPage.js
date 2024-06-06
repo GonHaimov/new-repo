@@ -1,6 +1,6 @@
 import React from 'react';
-import '../App.css'; 
-import youtubeLogo from '../assets/youtube-logo.png'; 
+import '../App.css'; // Ensure this path is correct
+import youtubeLogo from '../assets/youtube-logo.png'; // Ensure this path is correct
 
 function MainPage({ setPage }) {
   return (
