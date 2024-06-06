@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../App.css'; // Ensure this path is correct
 import youtubeLogo from '../assets/youtube-logo.png'; // Ensure this path is correct
 
@@ -31,5 +32,9 @@ function MainPage({ setPage }) {
     </div>
   );
 }
+
+MainPage.propTypes = {
+  setPage: PropTypes.func.isRequired,
+};
 
 export default MainPage;
