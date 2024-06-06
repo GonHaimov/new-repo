@@ -13,14 +13,14 @@ function MainPage({ setPage }) {
         <form>
           <label>
             Username
-            <input type="text" placeholder="Enter username" />
+            <input type="text" placeholder="Enter username" aria-label="Username" /> 
           </label>
           <label>
             Password
-            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Password" aria-label="Password" /> 
           </label>
-          <div className="error-message"> {/* Fake change: Added a placeholder for error messages */}
-            {/* Error messages will be displayed here */}
+          <div className="error-message">
+            
           </div>
           <button type="button" className="sign-in-btn" onClick={() => setPage('login')}>Sign In</button>
         </form>
