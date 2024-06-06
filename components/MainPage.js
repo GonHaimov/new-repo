@@ -7,20 +7,21 @@ function MainPage({ setPage }) {
   return (
     <div className="main-page">
       <div className="form-container">
+        {/* YouTube Logo */}
         <img src={youtubeLogo} alt="YouTube Logo" className="logo" />
         <h1>Welcome Back!</h1>
         <p>To keep connected with us please login with your personal info</p>
         <form>
           <label>
             Username
-            <input type="text" placeholder="Enter username" aria-label="Username" /> 
+            <input type="text" placeholder="Enter username" aria-label="Username" />
           </label>
           <label>
             Password
-            <input type="password" placeholder="Password" aria-label="Password" /> 
+            <input type="password" placeholder="Password" aria-label="Password" />
           </label>
           <div className="error-message">
-            
+            {/* Error messages will be displayed here */}
           </div>
           <button type="button" className="sign-in-btn" onClick={() => setPage('login')}>Sign In</button>
         </form>
