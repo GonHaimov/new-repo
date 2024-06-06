@@ -19,6 +19,9 @@ function MainPage({ setPage }) {
             Password
             <input type="password" placeholder="Password" />
           </label>
+          <div className="error-message"> {/* Fake change: Added a placeholder for error messages */}
+            {/* Error messages will be displayed here */}
+          </div>
           <button type="button" className="sign-in-btn" onClick={() => setPage('login')}>Sign In</button>
         </form>
         <span>or continue with</span>
