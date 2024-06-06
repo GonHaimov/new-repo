@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import youtubeLogo from '../assets/youtube-logo.png'; // Ensure this path is correct
-import '../App.css'; // Make sure to update CSS for new layout.
+import '../App.css'; // Make sure to update CSS for new layout
 
 function Login() {
   const [username, setUsername] = useState('');
