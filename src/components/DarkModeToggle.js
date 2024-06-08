@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa';
 import './DarkModeToggle.css'; // Import any necessary CSS
 
-const DarkModeToggle = () => {
+const DarkModeToggle = ({ onToggle }) => {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
@@ -13,10 +13,15 @@ const DarkModeToggle = () => {
     }
   }, [darkMode]);
 
+  const handleClick = () => {
+    setDarkMode(!darkMode);
+    onToggle();
+  };
+
   return (
     <button
       className="btn dark-mode-toggle"
-      onClick={() => setDarkMode(!darkMode)}
+      onClick={handleClick}
       aria-label="Toggle Dark Mode"
     >
       {darkMode ? <FaSun className="fa-sun" /> : <FaMoon />}

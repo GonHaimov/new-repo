@@ -5,6 +5,7 @@
     "url": "https://www.youtube.com/watch?v=lJYn09tuPw4",
     "thumbnail": "https://img.youtube.com/vi/lJYn09tuPw4/0.jpg",
     "views": "1M views",
+    "duration": 257,
     "uploadDate": "2 days ago",
     "comments": ["Great video!", "Loved it!", "Awesome!", "Nice song!", "Cool!"]
   },
@@ -14,6 +15,7 @@
     "url": "https://www.youtube.com/watch?v=AZMuSrWcsEg",
     "thumbnail": "https://img.youtube.com/vi/AZMuSrWcsEg/0.jpg",
     "views": "550K views",
+    "duration": 257,
     "uploadDate": "1 week ago",
     "comments": ["Amazing!", "Beautiful!", "Loved it!", "Great performance!", "Wonderful!"]
   },
@@ -23,6 +25,7 @@
     "url": "https://www.youtube.com/watch?v=xk4_1vDrzzo",
     "thumbnail": "https://img.youtube.com/vi/xk4_1vDrzzo/0.jpg",
     "views": "300K views",
+    "duration": 988,
     "uploadDate": "3 days ago",
     "comments": ["Very helpful!", "Thanks for the tutorial!", "Great explanation!", "Learned a lot!", "Nice tutorial!"]
   },
@@ -32,6 +35,7 @@
     "url": "https://www.youtube.com/watch?v=mRUc5sXmlm8",
     "thumbnail": "https://img.youtube.com/vi/mRUc5sXmlm8/0.jpg",
     "views": "800K views",
+    "duration": 437,
     "uploadDate": "5 days ago",
     "comments": ["Great game!", "Awesome match!", "Exciting!", "Loved it!", "Nice game!"]
   },
@@ -41,6 +45,7 @@
     "url": "https://www.youtube.com/watch?v=6VpzTnosBjA",
     "thumbnail": "https://img.youtube.com/vi/6VpzTnosBjA/0.jpg",
     "views": "400K views",
+    "duration": 214,
     "uploadDate": "1 month ago",
     "comments": ["Beautiful song!", "Loved it!", "Great voice!", "Amazing!", "Wonderful!"]
   },
@@ -50,6 +55,7 @@
     "url": "https://www.youtube.com/watch?v=nA8wHQvHPJU",
     "thumbnail": "https://img.youtube.com/vi/nA8wHQvHPJU/0.jpg",
     "views": "1.2M views",
+    "duration": 571,
     "uploadDate": "2 weeks ago",
     "comments": ["Awesome plays!", "Great player!", "Loved it!", "Amazing!", "Nice video!"]
   },
@@ -59,6 +65,7 @@
     "url": "https://www.youtube.com/watch?v=pz6HWpCRsc4",
     "thumbnail": "https://img.youtube.com/vi/pz6HWpCRsc4/0.jpg",
     "views": "600K views",
+    "duration": 251,
     "uploadDate": "3 weeks ago",
     "comments": ["Great song!", "Loved it!", "Amazing voice!", "Nice!", "Beautiful!"]
   },
@@ -68,6 +75,7 @@
     "url": "https://www.youtube.com/watch?v=Ka_jidh9ReU",
     "thumbnail": "https://img.youtube.com/vi/Ka_jidh9ReU/0.jpg",
     "views": "700K views",
+    "duration": 200,
     "uploadDate": "4 days ago",
     "comments": ["Wonderful!", "Loved it!", "Amazing!", "Nice song!", "Great!"]
   },
@@ -77,6 +85,7 @@
     "url": "https://www.youtube.com/watch?v=y_sHzgKo0i4",
     "thumbnail": "https://img.youtube.com/vi/y_sHzgKo0i4/0.jpg",
     "views": "350K views",
+    "duration": 222,
     "uploadDate": "2 months ago",
     "comments": ["Great song!", "Loved it!", "Nice!", "Wonderful!", "Beautiful!"]
   },
@@ -86,6 +95,7 @@
     "url": "https://www.youtube.com/watch?v=pRQX6Xp2B48",
     "thumbnail": "https://img.youtube.com/vi/pRQX6Xp2B48/0.jpg",
     "views": "900K views",
+    "duration": 197,
     "uploadDate": "6 days ago",
     "comments": ["Amazing!", "Loved it!", "Great song!", "Wonderful!", "Nice!"]
   },
@@ -95,6 +105,7 @@
     "url": "https://www.youtube.com/watch?v=XEjLoHdbVeE",
     "thumbnail": "https://img.youtube.com/vi/XEjLoHdbVeE/0.jpg",
     "views": "2M views",
+    "duration": 209,
     "uploadDate": "1 year ago",
     "comments": ["Great song!", "Loved it!", "Amazing!", "Nice!", "Wonderful!"]
   }

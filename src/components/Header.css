@@ -11,9 +11,15 @@
   height: 60px;
 }
 
-.youtube-logo {
-  height: 90px;
-  width: auto;
+.youtube-logo-light {
+  height: 90px; /* Adjust to the desired height */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 120px;
+}
+
+.youtube-logo-dark {
+  height: 20px; /* Adjust to the desired height */
+  width: auto; /* Maintain aspect ratio */
   margin-right: 120px;
 }
 
@@ -24,6 +30,7 @@
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  position: relative; /* Added to position the dropdown */
 }
 
 .search-input {
@@ -105,4 +112,71 @@
   height: 40px;
   width: 40px;
   font-size: 24px;
+}
+
+.recent-searches-dropdown {
+  position: absolute;
+  top: 45px; /* Adjust based on your header height */
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dropdown-item {
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+
+/* Dark mode styles */
+body.dark-mode .header-container {
+  background-color: #282828;
+}
+
+body.dark-mode .search-form {
+  background-color: #000;
+}
+
+body.dark-mode .recent-searches-dropdown {
+  background-color: #333;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+body.dark-mode .dropdown-item {
+  color: #fff;
+}
+
+body.dark-mode .dropdown-item:hover {
+  background-color: #444;
+}
+
+body.dark-mode .search-input {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark-mode .search-button {
+  background-color: #555;
+}
+
+body.dark-mode .mic-button {
+  background-color: #555;
+}
+
+body.dark-mode .right-icons .btn {
+  background-color: #555;
+  color: #fff;
 }

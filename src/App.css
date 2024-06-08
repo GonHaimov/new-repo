@@ -15,7 +15,7 @@ body {
   top: 0;
   left: 0;
   z-index: 1000;
-  background-color: #f8f8f8;
+  background-color: #ca2121;
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -255,4 +255,9 @@ body.dark-mode .card-body {
 
 body.dark-mode .fa-sun {
   color: #ffffff;
+}
+
+/* Dark mode styles */
+body.dark-mode .header-container {
+  background-color: #000; /* Set the background color to black in dark mode */
 }
